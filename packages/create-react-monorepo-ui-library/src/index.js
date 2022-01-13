@@ -43,7 +43,7 @@ if (fs.existsSync(projectDestination)) {
 }
 
 fs.copySync(
-  path.join(__dirname, '../../', program.js ? 'js-template' : 'main-template'),
+  path.join(__dirname, '..', program.js ? 'js-template' : 'main-template'),
   projectName
 );
 
@@ -61,8 +61,7 @@ process.chdir(projectDestination);
 fs.writeFileSync(
   '.gitignore',
   `node_modules
-dist
-database.sqlite`
+dist`
 );
 
 if (shouldUseYarn()) {
