@@ -1,7 +1,7 @@
 # create-react-monorepo-ui-library
 
 ```bash
-npx create-react-monorepo-ui-library my-react-ui-library-name
+npx create-react-ui-library-monorepo my-react-ui-library-name
 ```
 
 Then the dependencies will be installed automatically, just hold on for a sec and then just do an `npm run storybook` or
@@ -12,7 +12,7 @@ Then the dependencies will be installed automatically, just hold on for a sec an
 You can do the following for a js template:
 
 ```bash
-npx create-react-monorepo-ui-library my-react-ui-library-name --js
+npx create-react-ui-library-monorepo my-react-ui-library-name --js
 ```
 
 ## How to Deploy
