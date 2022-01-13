@@ -1,0 +1,88 @@
+.mru_badge {
+  color: #0c0c0d;
+  font-family: "Manrope", Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  height: auto;
+  padding: 0.1875rem 0.5rem;
+  text-transform: none;
+  -webkit-line-clamp: 2;
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+  max-width: 18rem;
+}
+
+.mru_badge--rounded {
+  border-radius: 0.875rem;
+}
+
+.mru_badge__icon {
+  position: absolute;
+  left: 0.4375rem;
+  top: 0.25rem;
+  vertical-align: text-top;
+  padding-right: 0.125rem;
+  display: inline-flex;
+}
+
+.mru_badge__icon-label {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.mru_badge--type_info {
+  color: #142c8e;
+  background-color: #d1f1ff;
+  border: 0.0625rem solid #d1f1ff;
+}
+
+.mru_badge--type_success {
+  color: #184634;
+  background-color: #cbf3ec;
+  border: 0.0625rem solid #cbf3ec;
+}
+
+.mru_badge--type_warning {
+  color: #785504;
+  background-color: #fff1a7;
+  border: 0.0625rem solid #fff1a7;
+}
+
+.mru_badge--type_error {
+  color: #791e06;
+  background-color: #fddbd3;
+  border: 0.0625rem solid #fddbd3;
+}
+
+.mru_badge--type_neutral {
+  color: #0c0c0d;
+  background-color: #dbd8d0;
+  border: 0.0625rem solid #dbd8d0;
+}
+
+.mru_badge--icon-left {
+  padding-left: 1.75rem;
+  position: relative;
+}
+
+.mru_badge--numeric {
+  color: #0c0c0d;
+  font-family: "Manrope", Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  color: #791e06;
+  background-color: #fddbd3;
+  border: 0.0625rem solid #fddbd3;
+  padding: 0.0625rem 0.5rem;
+  height: 1.5rem;
+  /* border-radius: 0.75rem; */
+}

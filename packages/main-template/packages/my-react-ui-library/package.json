@@ -1,0 +1,34 @@
+{
+  "name": "@my-react-ui-library/react",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "",
+  "keywords": [],
+  "types": "dist/index.d.ts",
+  "main": "dist/@my-react-ui-library/react.cjs.js",
+  "module": "dist/@my-react-ui-library/react.esm.js",
+  "source": "src/index.tsx",
+  "files": [
+    "dist",
+    "src",
+    "!__tests__"
+  ],
+  "scripts": {
+    "build": "builder",
+    "typecheck": "tsc-node scripts/typecheking.bin",
+    "test": "jest --watchAll"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.5",
+    "@my-react-ui-library/react-badge": "^1.0.0",
+    "classnames": "^2.3.1"
+  }
+}

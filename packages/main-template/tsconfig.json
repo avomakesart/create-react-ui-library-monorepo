@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "module": "esNext",
+      "noEmit": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "target": "ESNext"
+  }
+}

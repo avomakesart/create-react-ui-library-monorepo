@@ -1,0 +1,152 @@
+/******
+*
+* TABLE OF CONTENTS
+*
+* COLORS
+* 
+* Brand colors............... These are the main brand colors. They will be used the most
+* Neutral colors............. White and black, gray scale, secondary colors.
+* Utility colors............. Other colors that represents states: info, warning, success, error, etc.
+* 
+* 
+* TYPOGRAPHY
+* 
+* Font families.............. The fonts used in the design system.
+* Font weights............... Font weights.
+* Sizes...................... Font sizing for body text, paragraphs, inputs
+* Heading sizes.............. Font sizing for page headings
+* 
+* 
+* BREAKPOINTS
+* 
+* Breakpoints................ Gloabal responsive breakpoints definitions.
+*
+*
+* SPACING
+* Spacing.................... Global fixed set of spacing variables
+*
+* 
+****/
+
+/*=============================================
+=                  Colors                     =
+=============================================*/
+
+/*  Brand Colors  */
+
+$blue: #2563eb;
+$blue-light: #60a5fa;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+/* Neutral colors */
+
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+
+$white: #fff;
+$white-dark: #f1f2f3;
+
+/* Utility colors */
+
+$red: #d12727;
+$red-ligth: #f8dedf;
+
+$blue-info: #0468db;
+$blue-info-light: #b4d2f4;
+
+/*=====  End of Colors  ======*/
+
+/*=============================================
+=                  Typography                 =
+=============================================*/
+
+/**
+ * 
+ * 1) The manrope font. We'll use this for headings mostly.
+ *    https://fonts.google.com/specimen/Manrope
+ * 
+ * 2) The montserrat font. We'll use this for the body text.
+ *    https://fonts.google.com/specimen/Montserrat
+ */
+
+/* Font families */
+
+$manrope: "ManRope", sans-serif;
+/* 1 */
+
+$montserrat: "Montserrat", "HelveticaNeue", "Helvetica", "Arial" sans-serif;
+/* 2 */
+
+/* Font sizes */
+
+$fs-xs: 0.75rem;
+
+$fs-sm: 0.875rem;
+
+$fs-base: 1rem;
+
+$fs-lg: 1.125rem;
+
+$fs-xl: 1.5rem;
+
+/* Heading font sizes */
+
+$h-1: 1.375rem;
+
+$h-2: 1.375rem;
+
+$h-3: 1rem;
+
+$h-4: 1.125rem;
+
+$h-5: 0.75rem;
+
+$h-6: 0.75rem;
+
+/* Font weights */
+
+$fw-light: 300;
+
+$fw-normal: 400;
+
+$fw-medium: 500;
+
+$fw-semibold: 600;
+
+$fw-bold: 700;
+
+$fw-extrabold: 800;
+
+$fw-black: 900;
+
+/*=====  End of Typography  ======*/
+
+/*=============================================
+=                 Breakpoints                 =
+=============================================*/
+
+$breakpoints: (
+  md: 48rem,
+  lg: 64rem,
+  xl: 80rem,
+);
+
+/*=====  End of Breakpoints  ======*/
+
+/*=============================================
+=                   Spacing                  =
+=============================================*/
+
+$spacing: (
+  xxxs: 0.25rem,
+  xxs: 0.5rem,
+  xs: 0.75rem,
+  sm: 1rem,
+  md: 1.5rem,
+  lg: 2rem,
+  xl: 3rem,
+  xxl: 4.5rem,
+  xxxl: 6rem,
+) !default;

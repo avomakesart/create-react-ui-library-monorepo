@@ -1,0 +1,32 @@
+{
+  "name": "@alvcastillo/create-react-monorepo-ui-library",
+  "description": "Set up a React UI Library with Typescript or Javascript and using lerna for monorepo strategy by running one command.",
+  "author": "Alvaro Castillo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avomakesart/create-react-monorepo-ui-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avomakesart/create-react-monorepo-ui-library/issues"
+  },
+  "homepage": "https://github.com/avomakesart/create-react-monorepo-ui-library#readme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "js-template",
+    "main-template",
+    "src/index.js"
+  ],
+  "bin": {
+    "create-react-monorepo-ui-library": "./src/index.js"
+  },
+  "scripts": {
+    "prepublishOnly": "cp -R ../main-template . && cp -R ../js-template .",
+    "postpublish": "rm -rf main-template js-template"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "fs-extra": "^8.1.0"
+  }
+}

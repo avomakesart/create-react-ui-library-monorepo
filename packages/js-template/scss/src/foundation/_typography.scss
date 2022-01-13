@@ -1,0 +1,28 @@
+/*=============================================
+=               Body text sizes               =
+=============================================*/
+
+$body-font-size: var(--op-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--op-body-font-weight, $fw-normal) !default;
+
+/*=============================================
+=               Heading text sizes            =
+=============================================*/
+
+$h-1-font-size: var(--op-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--op-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--op-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--op-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--op-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--op-h6-font-size, $h-6) !default;
+
+/*=============================================
+=            Heading font weight              =
+=============================================*/
+
+$h-1-font-weight: var(--op-h1-font-weight, $fw-black) !default;
+$h-2-font-weight: var(--op-h2-font-weight, $fw-semibold) !default;
+$h-3-font-weight: var(--op-h3-font-weight, $fw-bold) !default;
+$h-4-font-weight: var(--op-h4-font-weight, $fw-medium) !default;
+$h-5-font-weight: var(--op-h5-font-weight, $fw-normal) !default;
+$h-6-font-weight: var(--op-h6-font-weight, $fw-light) !default;

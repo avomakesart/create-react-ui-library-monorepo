@@ -1,0 +1,35 @@
+:root {
+  --op-body-text-color: #{$dark};
+  --op-body-bg-color: #{$white};
+
+  --op-btn-primary-color: #{$white};
+  --op-btn-primary-bg: #{$blue};
+  --op-btn-primary-bg-hover: #{$blue-light};
+
+  --op-btn-secondary-color: #{$white};
+  --op-btn-secondary-bg: #{$dark};
+  --op-btn-secondary-bg-hover: #{$dark-light};
+
+  --op-form-color: #{$dark};
+  --op-form-bg: #{$white};
+  --op-form-error-color: #{$red};
+  --op-form-error-border: #{$red};
+  --op-form-border-focus-color: #{$blue};
+
+  --op-body-font-size: #{$fs-base};
+  --op-body-font-weight: #{$fw-normal};
+
+  --op-h1-font-size: #{$h-1};
+  --op-h2-font-size: #{$h-2};
+  --op-h3-font-size: #{$h-3};
+  --op-h4-font-size: #{$h-4};
+  --op-h5-font-size: #{$h-5};
+  --op-h6-font-size: #{$h-6};
+
+  --op-h1-font-weight: #{$fw-medium};
+  --op-h2-font-weight: #{$fw-medium};
+  --op-h3-font-weight: #{$fw-medium};
+  --op-h4-font-weight: #{$fw-normal};
+  --op-h5-font-weight: #{$fw-normal};
+  --op-h6-font-weight: #{$fw-light};
+}

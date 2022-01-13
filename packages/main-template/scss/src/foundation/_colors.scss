@@ -1,0 +1,60 @@
+/*=============================================
+=             Foundation - colors             =
+=============================================*/
+
+/**
+ *
+ * This file defines the actual colors that will be used for styling. 
+ *
+ */
+
+/*=============================================
+ =              Global Text colors             =
+ =============================================*/
+
+$body-text-color: var(--op-body-text-color, $dark) !default;
+$body-bg-color: var(--op-body-bg-color, $white) !default;
+
+/*=============================================
+=                   Buttons                   =
+=============================================*/
+
+$btn-primary-color: var(--op-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--op-btn-primary-bg, $blue) !default;
+$btn-primary-bg-hover: var(--bg-btn-primary-bg-hover, $blue-light) !default;
+
+$btn-secondary-color: var(--op-btn-secondary-color, $white) !default;
+$btn-secondary-bg: var(--op-btn-secondary-bg, $dark) !default;
+$btn-secondary-bg-hover: var(--op-btn-secondary-bg, $dark-light) !default;
+
+/*=============================================
+=                   Forms                    =
+=============================================*/
+
+$form-color: var(--op-form-color, $dark) !default;
+$form-bg: var(--op-form-bg, $white) !default;
+$form-error-color: var(--op-form-error-color, $red) !default;
+$form-error-border: var(--op-form-error-border, $red) !default;
+$form-border-focus-color: var(--op-form-border-focus-color, $blue) !default;
+
+$form-border-color: var(--op-form-border-color, $white-dark) !default;
+$form-bg-color: var(--op-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--op-form-bg-option-selected, $blue) !default;
+$form-color-option-selected: var(
+  --op-form-color-option-selected,
+  $white
+) !default;
+$form-bg-color-hover: var(--op-form-bg-color-hover, $white-dark) !default;
+
+/*=============================================
+=                   App Bar                   =
+=============================================*/
+
+$app-bar-primary-color: var(--op-app-bar-primary-color, $white) !default;
+$app-bar-primary-bg: var(--op-app-bar-primary-bg, $blue) !default;
+$app-bar-dark-bg: var(--op-app-bar-dark-bg, $dark) !default;
+$app-bar-light-bg: var(--op-app-bar-light-bg, $white) !default;
+
+/*=============================================
+=               Action Buttons                =
+=============================================*/

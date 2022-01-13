@@ -1,0 +1,54 @@
+{
+  "name": "@my-react-ui-library/builder",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Alvaro <alvcastillo@paypal.com>",
+  "license": "MIT",
+  "homepage": "https://ophelia-ui.github.com/pages/Ophelia-UI/react/?path=/docs/react-{{name}}",
+  "repository": {
+    "type": "git",
+    "url": "https://ophelia-ui.github.com/Ophelia-UI/react.git"
+  },
+  "types": "dist/index.d.ts",
+  "main": "src/builder.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "bin": {
+    "builder": "./src/builder.js"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!__tests__"
+  ],
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/runtime": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "classnames": "^2.3.1",
+    "rollup": "^2.61.1",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

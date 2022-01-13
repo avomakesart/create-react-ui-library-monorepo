@@ -1,0 +1,10 @@
+import {Story, Canvas, Description} from '@storybook/addon-docs/blocks'
+import README from '../README.md'
+
+<Description markdown={README} />
+
+## Basic (Story Id is obtained from path on storybook canvas)
+
+<Canvas withSource="open">
+  <Story id="{{kebabCase name}}-{{name}}--basic" />
+</Canvas>

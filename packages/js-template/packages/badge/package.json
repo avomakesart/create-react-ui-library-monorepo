@@ -1,0 +1,40 @@
+{
+  "name": "@my-react-ui-library/react-badge",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Badges are indicator of status",
+  "keywords": [],
+  "author": "Alvaro Castillo &lt;alvaro.castillo777@gmail.com&gt;",
+  "license": "MIT",
+  "homepage": "https://ophelia-ui.github.com/pages/Ophelia-UI/react/?path=/docs/react-badge",
+  "repository": {
+    "type": "git",
+    "url": "https://ophelia-ui.github.com/Ophelia-UI/react.git"
+  },
+  "types": "dist/index.d.ts",
+  "main": "dist/@my-react-ui-library/react-badge.cjs.js",
+  "module": "dist/@my-react-ui-library/react-badge.esm.js",
+  "source": "src/index.tsx",
+  "files": [
+    "dist",
+    "src",
+    "!__tests__"
+  ],
+  "scripts": {
+    "build": "builder",
+    "typecheck": "tsc-node scripts/typecheking.bin",
+    "test": "jest --watchAll"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.5",
+    "classnames": "^2.3.1"
+  }
+}
